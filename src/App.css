@@ -101,6 +101,23 @@
     color: #DDDDDD;
 }
 
+.hero-container {
+    position: relative;
+    display: block;
+    top: 100px;
+    height: 1px;
+    /* z-index: 100; */
+    text-align: center;
+}
+
+.hero-text{ 
+    font-family: 'Pacifico', cursive;;
+    /* font-style: italic; */
+    font-size: 25px;
+    color: #FC6471;
+}
+
+
 @media (max-width: 1475px) {
     .lnks{
         display: none;

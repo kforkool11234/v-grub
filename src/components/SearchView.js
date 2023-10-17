@@ -1,12 +1,14 @@
-const SearchView = (keyboard,searchResults) => {
+import Hero from "./Hero";
+
+const SearchView = ({keyboard,searchResults}) => {
+    console.log(keyboard)
+
+    const title = `You are searching for ${keyboard}`
     return(
         <>
-        <h1>{keyboard}</h1>
-        <h1>{searchResults}</h1>
+        <Hero text={title}/>
         </>
-
-    )
-}
-
+    );
+};
 
 export default SearchView;
